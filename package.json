@@ -1,0 +1,26 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon  ./src/server.js",
+    "start": "node  ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "cors": "^2.8.5",
+    "date-format": "^4.0.14",
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
